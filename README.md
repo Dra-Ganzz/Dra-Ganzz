@@ -1,7 +1,7 @@
 ## ★ Github data ★
 <p align="center">
 
-  <a href="https://github.com/Dra-ID"><img src="http://readme-typing-svg.herokuapp.com?color=BF00FF&center=true&vCenter=true&multiline=false&lines=Follow+Github+Vindra+ID+^_^" alt="UwU">
+  <a href="https://github.com/Dra-ID"><img src="http://readme-typing-svg.herokuapp.com?color=BF00FF&center=true&vCenter=true&multiline=false&lines=Follow+Github+Vindra+Ganzz+^_^" alt="UwU">
   
 >
 > *Number of visitors*
