@@ -22,6 +22,16 @@
    - 🇮🇩 Sunda Empire
    - 🇮🇩 Jawa Empire
 
+
+
+ • pantun copyright by chatgpt > judul ☘️ Daun Cinta
+```json
+Daun hijau menari di dahan,
+Disapa embun di pagi buta.
+Hati bergetar penuh harapan,
+Bila cinta menjelma nyata.
+```
+
 <a href="https://saweria.co/donate/VindraGanzz" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Donate For VindraGanz" height="30" width="120"></a>
 
 > *Sosial Media Vindra Ganzz*
