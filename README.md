@@ -16,7 +16,6 @@
  - 🏠 Live in `Bandung, Jawa Barat`
  - 👶🏻 Born in `Jawa Barat, Indonesia`
  - 🏫 School in `Smpn 2 Lewimunding`
- - 🌸 My Idol `Zeejkt48 (Azizi Asadel)`
  - 🌐 Language
    - 🇮🇩 Indonesian
    - 🇮🇩 Sunda Empire
@@ -26,7 +25,7 @@
 
 > *Sosial Media Vindra Ganzz*
 > 
-[![](https://img.shields.io/badge/Instagram-pink?logo=Instagram&logoColor=pink&labelColor=white)](https://www.instagram.com/vindradoang)
+[![](https://img.shields.io/badge/Instagram-pink?logo=Instagram&logoColor=pink&labelColor=white)](https://www.instagram.com/vindraganzz)
 [![](https://img.shields.io/badge/Whatsapp-white?logo=Whatsapp&logoColor=Brightgreen&labelColor=white)](https://wa.me/6283809192307?text=Asalamualaikum+bang)
 [![](https://img.shields.io/badge/Telegram-blue?logo=Telegram&logoColor=Brighwhite&labelColor=white)](https://t.me/vindraganzz)
 [![](https://img.shields.io/badge/YouTube-white?logo=YouTube&logoColor=Brighred&labelColor=red)](https://youtube.com/@VindraGanzz)
