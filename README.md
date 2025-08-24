@@ -19,7 +19,7 @@ Welcome
  - 👨‍🦱 My name is `Vindra Ganzz`
  - 🏠 Live in `Bandung, Jawa Barat`
  - 👶🏻 Born in `Jawa Barat, Indonesia`
- - 🏫 School in `Smpn 2 Lewimunding`
+ - 🏫 School in `Smpn 2 Lewimunding 2023`
  - 🌐 Language
    - 🇮🇩 Indonesian
    - 🇮🇩 Sunda Empire
