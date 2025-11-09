@@ -34,3 +34,5 @@ Welcome
 [![](https://img.shields.io/badge/Telegram-blue?logo=Telegram&logoColor=Brighwhite&labelColor=white)](https://t.me/vindraganzz)
 [![](https://img.shields.io/badge/YouTube-white?logo=YouTube&logoColor=Brighred&labelColor=red)](https://youtube.com/@VindraGanzz)
 [![](https://img.shields.io/badge/Facebook-white?logo=Facebook&logoColor=Brighblue&labelColor=blue)](https://facebook.com/@vindradoang0)<br>
+
+- mau encrypt python? anti pycdc gratis chat ke tele 
