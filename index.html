@@ -1,5 +1,4 @@
-<!DOCTYPE html><html lang="id">
-<head>
+<!DOCTYPE html><html lang="id"><head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>For You ❤️</title>
@@ -22,11 +21,25 @@
   background: rgba(255, 255, 255, 0.95);
   width: 90%;
   max-width: 380px;
-  padding: 30px 25px;
+  max-height: 85vh; /* penting biar tidak kepanjangan */
+  padding: 25px 20px;
   border-radius: 24px;
   text-align: center;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   animation: float 3s ease-in-out infinite;
+  overflow-y: auto; /* aktifkan scroll */
+}
+
+/* Scrollbar rapi */
+.card::-webkit-scrollbar {
+  width: 6px;
+}
+.card::-webkit-scrollbar-thumb {
+  background: #ff7eb3;
+  border-radius: 10px;
+}
+.card::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 @keyframes float {
@@ -36,23 +49,24 @@
 
 h1 {
   color: #ff4f81;
-  font-size: 1.8rem;
-  margin-bottom: 15px;
+  font-size: 1.7rem;
+  margin-bottom: 12px;
 }
 
 p {
   color: #555;
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.6;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  text-align: left; /* lebih nyaman dibaca */
 }
 
 button {
   background: linear-gradient(135deg, #ff4f81, #ff7eb3);
   border: none;
   color: white;
-  padding: 12px 24px;
-  font-size: 1rem;
+  padding: 12px 22px;
+  font-size: 0.95rem;
   border-radius: 999px;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -64,37 +78,26 @@ button:hover {
   box-shadow: 0 15px 30px rgba(255, 79, 129, 0.6);
 }
 
-.hidden {
-  display: none;
-}
+.hidden { display: none; }
 
 .heart {
   position: absolute;
   color: rgba(255, 79, 129, 0.7);
-  font-size: 14px;
   animation: floatUp linear infinite;
+  pointer-events: none;
 }
 
 @keyframes floatUp {
-  from {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  to {
-    transform: translateY(-120vh) scale(1.5);
-    opacity: 0;
-  }
+  from { transform: translateY(0) scale(1); opacity: 1; }
+  to { transform: translateY(-120vh) scale(1.5); opacity: 0; }
 }
 
   </style>
 </head>
 <body>  <div class="card" id="page1">
     <h1>Hai Kamu 💖</h1>
-    <p>
-      Aku mau bilang…<br>
-
-    </p>
-    <button onclick="nextPage()">Klik lanjut💌</button>
+    <p>Aku mau bilang…</p>
+    <button onclick="nextPage()">Klik lanjut 💌</button>
   </div>  <div class="card hidden" id="page2">
     <h1>Untuk kamu di Sana</h1>
     <p>
@@ -107,19 +110,18 @@ button:hover {
   </div>  <div class="card hidden" id="page3">
     <h1>Makasih yah kamu baik 🥰</h1>
     <p>
-      <br>
-     ada lagi , sebenarnya aku follow ig kamu dari januari bulan sekarang aku kangen aku gamon aku masih kepikiran kamu ini bener ya jangan di kira boong,
+      ada lagi , sebenarnya aku follow ig kamu dari januari bulan sekarang aku kangen aku gamon aku masih kepikiran kamu ini bener ya jangan di kira boong,
      aku mikir kenapa aku balik lagi nyari kamu kenapa berat rasanya meninggalkan dirimu, gimana cara nya biar balikan sama kamu gimana caranya,aku juga mikir kenapa aku mau balikan padahal aku gabisa apa apa aku gabisa nenangin kamu nangis aku ngga bisa sepertinya akunya ngga pantas buat kamu karna aku bukan dari orang berada. .aku jujur sebenarnya aku ada pacaran sebelum kamu itu juga dari game apk fre fire udah lama banget cuma kenapa aku putus karna dari game semua dari game beda bener bener beda sama kamu suka nanya gimana kenapa bagaimana kamu orangnya ceria banget banget jadi aku minta maaff,
      dan sekarang aku nggak tau gimana caranya balikan sama kamu ,aku cuma bisa bikin ini website buat kamu lihat isi pikiran aku,aku minta maaf banget bener aku nangis keluar air mata🥲,
      aku tau kamu juga pengen punya cowok baik ber effort tinggi yang punya pengen sesuatu buat kamu mau,aku nggak bisa aku puyeng kamu juga puyeng kan sama sama puyeng.
      kamu nggak selera seperti cowok kayak aku ini , kamu juga udah nemu pacar yang selera buat kamu buat kamu baik biar nggak nangis bisa ke sana ke sini sama kamu buat hilangin nangis kamu,aku nggabisa apa apa aku cuma bisa liat kamu gpp aku iklas kamu sama orang lain.
      
      terimakasih udah di baca☺️,semoga kamu ngerti apa yang aku tulis,nggak ngerti juga gpp ko.
+     dan maaf cuma bisa chat di sini.
     </p>
     <button onclick="alert('Love you ❤️')">Peluk Jauh 🤍</button>
   </div>  <script>
     let current = 1;
-
     function nextPage() {
       document.getElementById('page' + current).classList.add('hidden');
       current++;
@@ -132,12 +134,9 @@ button:hover {
       heart.innerHTML = '❤';
       heart.style.left = Math.random() * 100 + 'vw';
       heart.style.animationDuration = (3 + Math.random() * 4) + 's';
-      heart.style.fontSize = (10 + Math.random() * 20) + 'px';
+      heart.style.fontSize = (10 + Math.random() * 18) + 'px';
       document.body.appendChild(heart);
-
-      setTimeout(() => {
-        heart.remove();
-      }, 7000);
+      setTimeout(() => heart.remove(), 7000);
     }
 
     setInterval(createHeart, 300);
