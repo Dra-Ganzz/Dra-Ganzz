@@ -1,6 +1,5 @@
 
 # MINIMAL YA PALING MININAL JANGAN MALING API,NGGAK BISA NYARI
-# SENDIRI JADI MALING DEH SUKA MALING ,PASTI PERNAH MALING DUIT ORANG WK,
 # LU ITU ANAK ANJING YANG SUKA MALING API ORANG ,KALO DONGO DONGO AJA LU
 
 globals()['mol'] = (bool) if bool(bool(bool(bool))) < bool(type(int(169)>int(19)<int(1317)>int(81))) and bool(str(str(1412)>int(17)<int(617)>int(818))) > 2 else bool
